@@ -13,8 +13,8 @@ public class rsp_game {
         Scanner sc=new Scanner(System.in);
         System.out.println(
                 "        1 for paper \n" +
-                        "        2 for scissor\n" +
-                        "        3 for stone\n"+"Enter your Choice-");
+                "        2 for scissor\n" +
+                "        3 for stone\n"+"Enter your Choice-");
 
         int userInput=sc.nextInt();
         System.out.println("Your Choice is "+userInput);
@@ -25,7 +25,7 @@ public class rsp_game {
             System.out.println("Draw!");
         } else if (userInput == 1 && comInput == 3 || userInput==2&&comInput==1||userInput==3&&comInput==2) {
             System.out.println("You Win!");
-
+            
         }
         else {
             System.out.println("Computer wins!");

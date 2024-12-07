@@ -13,7 +13,7 @@ class Game{
 
 
 
-    public void isCorretNumber() {
+    public void isCorrectNumber() {
         System.out.println("Enter your Number-");
         while(true){
 
@@ -29,7 +29,7 @@ class Game{
             else if (userInput > a) {
                 System.out.println("The number is lower than " + userInput);
             }
-            else if (a> userInput){
+            else {
                 System.out.println("The number is greater than " + userInput);
             }
         }
@@ -42,6 +42,6 @@ class Game{
 public class guess_the_number_game {
     public static void main(String[] args) {
         Game g1=new Game();
-        g1.isCorretNumber();
+        g1.isCorrectNumber();
     }
 }
